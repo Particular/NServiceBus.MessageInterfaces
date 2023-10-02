@@ -1,0 +1,6 @@
+namespace NServiceBus
+{
+    public interface ICommand : NServiceBus.IMessage { }
+    public interface IEvent : NServiceBus.IMessage { }
+    public interface IMessage { }
+}
